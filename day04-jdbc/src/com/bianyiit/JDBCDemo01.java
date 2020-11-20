@@ -29,6 +29,7 @@ public class JDBCDemo01 {
             int i = statement.executeUpdate(sql);
             // 7. 处理结果
             System.out.println("影响了" + i + "行");
+            System.out.println("影响了" + i + "行");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (SQLException e) {
